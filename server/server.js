@@ -5,7 +5,6 @@ const bodyParser = require('body-parser');
 const crypto = require('crypto');
 const cors = require('cors');
 
-// สร้างคู่คีย์ RSA
 const { privateKey, publicKey } = crypto.generateKeyPairSync('rsa', {
     modulusLength: 2048,
     publicKeyEncoding: {
