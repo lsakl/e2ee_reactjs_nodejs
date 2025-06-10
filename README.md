@@ -28,7 +28,7 @@ npm i
 node server.js
 ```
 
-* Server will start on the default port (usually 4000)
+* Server will start on the default port (usually 3000)
 
 ## How to Use
 
